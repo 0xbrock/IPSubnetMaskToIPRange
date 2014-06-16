@@ -1,0 +1,10 @@
+{
+  "name": "IPSubnetMaskToIPRange",
+  "version": "0.0.0",
+  "description": "IP Subnet Mask To IP Range",
+  "main": "app.js",
+  "author": {
+     "name": "0xbrock",
+    "email": ""
+  }
+}
