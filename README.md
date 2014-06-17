@@ -10,15 +10,15 @@ This project wraps the excellent [Network and IP address calculator](http://www.
 Create a file with each subnet mask on a new line:
 
 ```text
-	23.96.0.0/18
-	23.96.64.0/28
-	23.96.64.64/26
-	...
+23.96.0.0/18
+23.96.64.0/28
+23.96.64.64/26
+...
 ```
 
 ### Run
 
-    /c/prj/IPSubnetMaskToIPRange/IPSubnetMaskToIPRange (master)$ node app.js FILENAME
+    node app.js FILENAME
 
 ### Ouput
 
