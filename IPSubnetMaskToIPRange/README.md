@@ -7,18 +7,18 @@ This project wraps the excellent [Network and IP address calculator](http://www.
 
 ## Usage
 
-Edit the `app.js` file and put the subnet masks in the ips array:
+Create a file with each subnet mask on a new line:
 
-```js
-    var ips =	[
-				"23.96.0.0/18",
-				...
-				];
+```text
+	23.96.0.0/18
+	23.96.64.0/28
+	23.96.64.64/26
+	...
 ```
 
 ### Run
 
-    /c/prj/IPSubnetMaskToIPRange/IPSubnetMaskToIPRange (master)$ node app.js
+    /c/prj/IPSubnetMaskToIPRange/IPSubnetMaskToIPRange (master)$ node app.js FILENAME
 
 ### Ouput
 
@@ -26,7 +26,4 @@ There will be 2 CSV files generated.
 * `range.csv` contains the ip address ranges. Columns: "IP Range Subnet Mask", "First IP", "Last IP"
 * `expanded.csv` contains all of the ip addresses in the ranges. Columns: "Expanded"
 
-## Next Tasks
-
-* Add functionality to read the subnet masks from a file
 

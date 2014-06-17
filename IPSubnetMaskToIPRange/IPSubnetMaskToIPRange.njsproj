@@ -32,7 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="common.js" />
+    <Compile Include="convertIPSubnetMasks.js" />
     <Compile Include="networkIPAddressCalculator.js" />
+    <Content Include="IPList.txt" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
